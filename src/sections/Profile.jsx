@@ -19,42 +19,48 @@ export const Profile = () => {
       skills: ["C", "C#", "Java", "Python", "Dart", "PHP"],
     },
     {
-      title: "Frontend & Mobile",
+      title: "Frontend & Web",
       icon: Layout,
-      skills: ["HTML", "JavaScript", "Tailwind CSS", "React", "Next.js", "Flutter"],
+      skills: ["HTML", "JavaScript", "Tailwind CSS", "React", "C#", "Python"],
     },
     {
       title: "Backend & Web Frameworks",
       icon: Server,
-      skills: ["Node.js", "Express.js", "Laravel", "ASP.NET"],
+      skills: ["Node.js", "Express.js", "Laravel", "ASP.NET","Flask"],
     },
     {
       title: "Databases & Cloud",
       icon: Database,
-      skills: ["SQL", "MySQL", "PostgreSQL", "MSSQL", "SQLite", "MongoDB", "Firebase"],
+      skills: ["SQL", "MySQL", "MSSQL", "SQLite", "MongoDB", "Firebase"],
     },
     {
       title: "Developer Tools & Platforms",
       icon: Wrench,
-      skills: ["Git", "GitHub", "VS Code", "Android Studio", "Figma", "XAMPP", "PowerBI"],
+      skills: ["Git", "GitHub", "VS Code",  "Figma", "XAMPP", "PowerBI"],
     },
     {
       title: "AI & Hardware / Systems",
       icon: Cpu,
       skills: ["ChatGPT", "Claude", "PC Setup", "Networking"],
     },
+
+     {
+      title: "Game Development ",
+      icon: Cpu,
+      skills: ["Unity", "C#", "Blender", "Unreal Engine", "Godot"],
+    },
   ];
 
   const certifications = [
     {
-      title: "COMPANY PROPOSAL AND SYSTEM SHOWCASE",
-      institution: "Saint Jude College Manila",
-      period: "2023 - 2024",
+      title: "",
+      institution: "",
+      period: "",
     },
     {
-      title: "Single Dimensional Theatre",
-      institution: "Saint Jude College Manila",
-      period: "2024 - 2025",
+      title: "",
+      institution: "",
+      period: "",
     },
   ];
 
@@ -64,7 +70,7 @@ export const Profile = () => {
         {/* Navigation / Header badge */}
         <div className="flex justify-between items-center max-w-6xl mx-auto mb-10">
           <div className="px-4 py-1.5 rounded-full border border-red-900/60 bg-red-950/20 text-red-500 font-bold tracking-wider text-sm shadow-[0_0_15px_rgba(239,68,68,0.2)]">
-            SEAN_REVILLA
+            Axel John Antiojo
           </div>
           <div className="flex gap-6 text-sm font-medium">
             <a href="#about" className="text-gray-400 hover:text-white transition-colors">

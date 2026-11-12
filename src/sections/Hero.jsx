@@ -10,29 +10,20 @@ import {
 import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
-  "C",
   "C#",
   "Java",
   "Python",
-  "Dart",
   "HTML",
   "JavaScript",
   "Tailwind CSS",
   "React",
-  "Flutter",
-  "Next.js",
   "PHP",
   "ASP.NET",
-  "Laravel",
   "Node.js",
   "Firebase",
-  "MongoDB",
   "SQL",
   "MySQL",
-  "PostgreSQL",
   "MSSQL",
-  "SQLite",
-  "Express.js",
   "Git",
   "GitHub",
   "VS Code",
@@ -102,20 +93,27 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Axel John — a software developer specializing in React, Next.js, Laravel, and modern web stack solutions.
+                Hi, I'm Axel John — a software developer specializing in Python, C#, Java, and modern web stack solutions.
               </p>
             </div>
 
-            {/* CTAs */}
-            <div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
-              <Button size="lg">
-                Contact Me <ArrowRight className="w-5 h-5" />
-              </Button>
-              <AnimatedBorderButton>
-                <Download className="w-5 h-5" />
-                Download CV
-              </AnimatedBorderButton>
-            </div>
+         {/* CTAs */}
+<div className="flex flex-wrap gap-4 animate-fade-in animation-delay-300">
+  <Button size="lg">
+    Contact Me <ArrowRight className="w-5 h-5" />
+  </Button>
+
+  <a
+    href="/RESUME.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <AnimatedBorderButton>
+      <Download className="w-5 h-5" />
+      View CV/Resume
+    </AnimatedBorderButton>
+  </a>
+</div>
 
             {/* Social Links */}
             <div className="flex items-center gap-4 animate-fade-in animation-delay-400">

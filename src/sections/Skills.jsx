@@ -14,7 +14,7 @@ const skillCategories = [
     level: "User Interface",
     description:
       "Creating modern, responsive user interfaces across mobile and web platforms.",
-    skills: ["HTML", "JavaScript", "Tailwind CSS", "React", "Flutter", "Next.js"],
+    skills: ["HTML", "JavaScript", "Tailwind CSS", "React", "Python", "Java", "C#"],
     featured: false,
   },
   {
@@ -25,15 +25,11 @@ const skillCategories = [
     skills: [
       "PHP",
       "ASP.NET",
-      "Laravel",
       "Node.js",
       "Firebase",
-      "MongoDB",
       "SQL",
       "MySQL",
-      "PostgreSQL",
       "MSSQL",
-      "SQLite",
       "Express.js",
     ],
     featured: false,
